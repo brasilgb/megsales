@@ -49,7 +49,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     useEffect(() => {
         async function loadAuthState() {
             try {
-                await new Promise(resolve => setTimeout(resolve, 2000));
+                await new Promise(resolve => setTimeout(resolve, 1000));
                 const authState = await AsyncStorage.getItem(AUTH_STATE_KEY);
                 if (authState) {
                     setIsLoggedIn(JSON.parse(authState).isLoggedIn);
