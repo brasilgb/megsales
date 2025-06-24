@@ -4,7 +4,7 @@
     "slug": "megsales",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/casinha.png",
     "scheme": "megsales",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
